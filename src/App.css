@@ -1,0 +1,15 @@
+/* App.css */
+.QRCodeContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.QRCodeWrapper {
+  text-align: center;
+  margin: 20px;
+}
+
+.QRCodeWrapper p {
+  margin-top: 10px;
+}

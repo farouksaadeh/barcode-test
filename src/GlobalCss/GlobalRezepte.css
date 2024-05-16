@@ -1,0 +1,62 @@
+/* Allgemeine Stile */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Weißer Hintergrund */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Weißer Hintergrund */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titelstil */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Beschreibungsstil */
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Stil für Listen */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Bildstil */
+img {
+  max-width: 600px; /* Maximale Breite von 400 Pixeln */
+  height: auto;
+  float: left; /* Bild links ausrichten */
+  margin-right: 20px; /* Abstand zwischen Bild und Text */
+  margin-bottom: 20px; /* Abstand unterhalb des Bildes */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Linkstil */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

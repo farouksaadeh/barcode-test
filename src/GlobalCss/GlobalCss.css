@@ -1,0 +1,86 @@
+/* Allgemeine Stile */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container für die gesamte Seite */
+.page-container {
+  width: 100%; /* Vollständige Breite für zentrierte Ausrichtung */
+  max-width: 1200px;
+  margin: 20px auto; /* Zentriert den Container horizontal */
+  overflow: hidden;
+}
+
+/* Flexbox-Container für die Rezepte */
+.rezepte-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Zentriert die Rezepte horizontal */
+  gap: 40px; /* Abstand zwischen den Rezepten */
+}
+
+/* Stile für die Rezeptkategorie */
+.Rezept {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 0 calc(50% - 40px); /* Maximal zwei Rezepte pro Zeile */
+  max-width: 400px; /* Maximale Breite für bessere Lesbarkeit */
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  text-align: center; /* Zentriert den Text horizontal */
+}
+
+.Rezept:hover {
+  transform: translateY(-5px); /* Hebt das Rezept leicht an, wenn es gehovert wird */
+}
+
+.Rezept img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.Rezept h2 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 22px;
+}
+
+.Rezept p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.Rezept.qrcode {
+  display: block;
+  margin: 20px auto; /* Zentriert den QR-Code horizontal */
+  width: 150px;
+  height: 150px;
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .rezepte-container {
+      justify-content: space-between; /* Platz zwischen den Rezepten auf kleinen Bildschirmen */
+  }
+  .Rezept {
+      flex: 1 0 calc(50% - 40px); /* Ein Rezept pro Zeile auf kleinen Bildschirmen */
+  }
+  .Rezept img {
+      margin-bottom: 10px; /* Reduziert den Abstand zwischen Bild und Text auf kleinen Bildschirmen */
+  }
+  .Rezept h2 {
+      font-size: 20px;
+  }
+}
