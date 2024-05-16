@@ -4,7 +4,6 @@ import '../GlobalCss/GlobalCss.css';
 
 const Italienisch = () => {
   const rezepte = [
-<<<<<<< HEAD
       {
         "name": "Lasagne",
         "description": "Ein traditionelles italienisches Gericht, bestehend aus geschichteten Nudeln, Hackfleischsauce und Käse.",
@@ -37,44 +36,6 @@ const Italienisch = () => {
       }
     
     
-=======
-    {
-      name: "Spaghetti Carbonara",
-      description: "Ein klassisches italienisches Gericht mit Spaghetti, Ei, Guanciale und Pecorino Romano.",
-      image: "url-zum-bild-1.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/spaghetti-carbonara"
-    },
-    {
-      name: "Pizza Margherita",
-      description: "Eine traditionelle italienische Pizza mit Tomatensauce, Mozzarella und Basilikum.",
-      image: "url-zum-bild-pizza-margherita.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/pizza-margherita"
-    },
-    {
-      name: "Risotto alla Milanese",
-      description: "Ein cremiges Risotto-Gericht aus Mailand, gewürzt mit Safran und Parmesankäse.",
-      image: "url-zum-bild-risotto-milanese.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/risotto-milanese"
-    },
-    {
-      name: "Tiramisu",
-      description: "Ein klassisches italienisches Dessert aus Löffelbiskuits, Mascarpone, Kaffee und Kakao.",
-      image: "url-zum-bild-tiramisu.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/tiramisu"
-    },
-    {
-      name: "Pasta all'Arrabbiata",
-      description: "Eine scharfe Pasta mit Tomatensauce, Knoblauch, Olivenöl und Peperoncini.",
-      image: "url-zum-bild-pasta-arrabbiata.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/pasta-arrabbiata"
-    },
-    {
-      name: "Bruschetta",
-      description: "Gegrilltes Brot mit Olivenöl, Knoblauch und Tomatenwürfeln, oft mit Basilikum garniert.",
-      image: "url-zum-bild-bruschetta.jpg",
-      qrCode: "https://barcode-test-ochre.vercel.app///italienisch/bruschetta"
-    },
->>>>>>> fc8ca2c3a1d2efe1349baffb5d40d30e3aedc5b9
     // Fügen Sie hier weitere Rezepte hinzu...
   ];
 
