@@ -51,7 +51,7 @@ const AppRoutes = () => {
         {/* Italienisch */}
         <Route path="/italienisch/spaghetti-carbonara" element={<SpaghettiCarbonara />} />
         <Route path="/italienisch/pizza-margherita" element={<PizzaMargherita />} />
-        <Route path="/italienisch/risotto-milanese" element={<Risotto />} />
+        <Route path="/italienisch/risotto" element={<Risotto />} />
         <Route path="/italienisch/tiramisu" element={<Tiramisu />} />
         <Route path="/italienisch/lasagne" element={<Lasagne />} />
 

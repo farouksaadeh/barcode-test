@@ -14,7 +14,7 @@ const Serbisch = () => {
       name: "Pljeskavica",
       description: "Pljeskavica ist ein serbisches Burger-Patty aus gemahlenem Fleisch, oft serviert mit Kajmak, Zwiebeln und Ajvar in einem Brot.",
       image: "https://lh3.googleusercontent.com/ET8qj9I6Y7h1OPUCPwbNyR9jKjTmXGHu4YslyYQgCBlrDiYV54uN1xqGrIrvzTaKDmtc0RgdCZFwXDaLlbpBfPDn3Ru4L_4VdU1Otg=w900-l68",
-      qrCode: "https://barcode-test-ochre.vercel.app//serbisch/pljeskavica"
+      qrCode: "https://barcode-test-ochre.vercel.app//serbisch/pleskavica"
     },
     {
       name: "Gibanica",
